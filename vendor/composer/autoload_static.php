@@ -31,6 +31,7 @@ class ComposerStaticInita51ca0fe107b730f2c8f3e8a18319590
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\Clock\\' => 24,
+            'Src\\' => 4,
         ),
         'P' => 
         array (
@@ -38,10 +39,6 @@ class ComposerStaticInita51ca0fe107b730f2c8f3e8a18319590
             'Psr\\Container\\' => 14,
             'Psr\\Clock\\' => 10,
             'PhpParser\\' => 10,
-        ),
-        'J' => 
-        array (
-            'Javierdiez\\Javierdiezplataform\\' => 31,
         ),
         'I' => 
         array (
@@ -95,6 +92,10 @@ class ComposerStaticInita51ca0fe107b730f2c8f3e8a18319590
         array (
             0 => __DIR__ . '/..' . '/symfony/clock',
         ),
+        'Src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -111,15 +112,11 @@ class ComposerStaticInita51ca0fe107b730f2c8f3e8a18319590
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'Javierdiez\\Javierdiezplataform\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Database\\' => 
